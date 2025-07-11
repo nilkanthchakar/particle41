@@ -91,12 +91,4 @@ terraform {
 
 ---
 
-## Troubleshooting
-- Ensure your AWS credentials are set and have permissions to create the resources.
-- The S3 bucket and DynamoDB table for state **must exist** before running `terraform init`.
-- If you change the backend config, re-run `terraform init` to reconfigure the backend.
 
----
-
-## License
-MIT or your preferred license. 
